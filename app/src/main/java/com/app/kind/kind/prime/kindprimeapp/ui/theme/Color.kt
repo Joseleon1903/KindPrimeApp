@@ -2,10 +2,14 @@ package com.app.kind.kind.prime.kindprimeapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+/** Paleta de colores principal de KindPrime. */
+val KindBackground = Color(0xFF121412)
+val KindSurface = Color(0xFF202520)
+val KindPrimary = Color(0xFFB8F34A)
+val KindTextPrimary = Color(0xFFF4F6F0)
+val KindTextSecondary = Color(0xFF929B90)
+val KindWarning = Color(0xFFF5B544)
+val KindError = Color(0xFFFF6B6B)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+/** Color de texto e iconos sobre el color primario. */
+val KindOnPrimary = Color(0xFF121412)

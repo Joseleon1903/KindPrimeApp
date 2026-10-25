@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">KindPrimeApp</string>
+
+    <!-- Navegación -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="coming_soon">Próximamente</string>
+
+    <!-- Eventos -->
+    <string name="home_title">Mis eventos</string>
+    <string name="add_event">Agregar evento</string>
+    <string name="new_event">Nuevo evento</string>
+    <string name="edit_event">Editar evento</string>
+    <string name="title_label">Título</string>
+    <string name="description_label">Descripción</string>
+    <string name="event_date_label">Fecha del evento</string>
+    <string name="completed_label">Completado</string>
+    <string name="change_date">Cambiar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="title_required">El título es obligatorio</string>
+
+    <string name="delete_event_title">Eliminar evento</string>
+    <string name="delete_event_message">¿Seguro que quieres eliminar «%1$s»? Esta acción no se puede deshacer.</string>
+
+    <string name="empty_events_title">Aún no tienes eventos</string>
+    <string name="empty_events_subtitle">Toca «Agregar evento» para crear el primero.</string>
+
+    <string name="status_completed">Completado</string>
+    <string name="status_today">Vence hoy</string>
+
+    <plurals name="status_remaining">
+        <item quantity="one">Falta %1$d día</item>
+        <item quantity="other">Faltan %1$d días</item>
+    </plurals>
+
+    <plurals name="status_overdue">
+        <item quantity="one">Vencido hace %1$d día</item>
+        <item quantity="other">Vencido hace %1$d días</item>
+    </plurals>
 </resources>
