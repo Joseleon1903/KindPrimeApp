@@ -1,0 +1,2 @@
+# KindPrimeApp
+Simple Android app 
